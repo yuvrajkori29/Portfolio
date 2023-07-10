@@ -132,8 +132,8 @@ section {
   padding: 1 rem;
   cursor: pointer;
   background-color: var(--color-grey-4);
-  width: 55px;
-  height: 55px;
+  width: 40px;
+  height: 40px;
   border-radius: 50%;
   display: flex;
   margin: 0.7rem 0;
@@ -153,8 +153,8 @@ section {
   padding: 1rem;
   cursor: pointer;
   background-color: var(--color-grey-4);
-  width: 70px;
-  height: 70px;
+  width: 50px;
+  height: 50px;
   position: fixed;
   border-radius: 50%;
   display: flex;
@@ -233,7 +233,7 @@ section {
   padding-right: 18rem;
 }
 .header-content .right-header .name {
-  font-size: 3rem;
+  font-size: 2rem;
 }
 .header-content .right-header .name span {
   color: var(--color-secondary);
@@ -244,13 +244,13 @@ section {
 .about-container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  padding-top: 3.5;
-  padding-bottom: 5;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
 }
 .about-container .right-about {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-gap: 2rem;
+  grid-gap: 3rem;
 }
 .about-container .right-about .about-item {
   border: 1px solid var(--color-grey-5);
@@ -270,14 +270,14 @@ section {
   flex-direction: column;
 }
 .about-container .right-about .about-item .abt-text .large-text {
-  font-size: 3rem;
-  font-weight: 700;
+  font-size: 2rem;
+  font-weight: 500;
   color: var(--color-secondary);
 }
 .about-container .right-about .about-item .abt-text .small-text {
   position: relative;
   text-transform: uppercase;
-  font-size: 1.4rem;
+  font-size: 1rem;
   color: var(--color-grey-1);
   letter-spacing: 2px;
 }
@@ -299,7 +299,7 @@ section {
 }
 .about-container .left-about h4 {
   font-size: 2rem;
-  font-weight: 200;
+  font-weight: 150;
 }
 
 .stat-title {
@@ -337,7 +337,7 @@ section {
 }
 .about-stats .progress-bars .progress-bar .prog-title {
   text-transform: uppercase;
-  font-weight: 500;
+  font-weight: 400;
 }
 .about-stats .progress-bars .progress-bar .progress-con {
   display: flex;
@@ -414,13 +414,14 @@ section {
   font-weight: 500px;
 }
 .timeline .timeline-item h5 {
-  font-weight: 500px;
-  font-size: 1.4rem;
+  font-weight: 100px;
+  font-size: 1rem;
 }
 
 .port-text {
   padding: 2rem 0rem;
   text-align: center;
+  font-size: 0.9rem;
 }
 
 .portfolios {
@@ -458,7 +459,7 @@ section {
   transition: all 0.4s ease-in-out;
 }
 .portfolios .portfolio-item h3 {
-  font-size: 1.5rem;
+  font-size: 0.5rem;
   color: var(--color-white);
   margin-bottom: 1.5rem;
 }
@@ -666,8 +667,9 @@ section {
   transition: all 0.4s ease-in-out;
   z-index: -1;
   transform: translate(-50%, -50%);
-  font-weight: 800;
-  font-size: 6rem;
+  font-weight: 800px;
+  font-size: 5.03rem;
+
 }
 
 @media screen and (max-width: 600px) {
